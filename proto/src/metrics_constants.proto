@@ -2249,5 +2249,11 @@ message MetricsEvent {
 
     // Add new aosp constants above this line.
     // END OF AOSP CONSTANTS
+
+    //Nebula
+    NEBULA = 500;
+
+    //AOSNP
+    AOSNP = 501;
   }
 }
