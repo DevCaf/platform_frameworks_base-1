@@ -3875,6 +3875,12 @@ public final class Settings {
          */
         public static final String CUSTOM_CARRIER_LABEL = "custom_carrier_label";
 
+         /**
+          * AE Settings activity custom summary text
+          * @hide
+          */
+        public static final String AOSNP_SETTINGS_SUMMARY= "aosnp_settings_summary";
+
         /**
          * Change volume up and down handlign based on rotation
          * @hide
