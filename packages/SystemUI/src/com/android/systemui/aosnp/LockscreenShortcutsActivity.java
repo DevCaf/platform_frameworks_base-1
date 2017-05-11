@@ -1,8 +1,8 @@
-package com.android.systemui.aosip;
+package com.android.systemui.aosnp;
 
-import com.android.settingslib.aosip.ShortcutPickHelper;
+import com.android.settingslib.aosnp.ShortcutPickHelper;
 import com.android.systemui.R;
-import com.android.systemui.aosip.LockscreenShortcutsHelper.Shortcuts;
+import com.android.systemui.aosnp.LockscreenShortcutsHelper.Shortcuts;
 
 import android.app.Activity;
 import android.app.AlertDialog;

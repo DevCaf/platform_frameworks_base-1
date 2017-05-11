@@ -28,7 +28,7 @@
         android:paddingEnd="5dip"
         android:gravity="center"
         android:visibility="gone"/>
-    <com.android.systemui.aosip.carrierlabel.CarrierLabel
+    <com.android.systemui.aosnp.carrierlabel.CarrierLabel
         android:id="@+id/statusbar_carrier_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

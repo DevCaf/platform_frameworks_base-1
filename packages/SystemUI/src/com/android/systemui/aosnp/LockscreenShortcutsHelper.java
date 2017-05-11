@@ -1,4 +1,4 @@
-package com.android.systemui.aosip;
+package com.android.systemui.aosnp;
 
 import android.content.Context;
 import android.content.Intent;

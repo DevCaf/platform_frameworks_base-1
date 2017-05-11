@@ -15,7 +15,10 @@
  */
 package com.android.systemui.tuner;
 
+<<<<<<< HEAD
 import android.content.ContentResolver;
+=======
+>>>>>>> 861eda9... Repurpose SystemUI tuner for Flash ROM [1/2]
 import android.database.ContentObserver;
 import android.net.Uri;
 import android.os.Bundle;
@@ -29,7 +32,7 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 
 import com.android.internal.logging.MetricsLogger;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
-import com.android.internal.util.aosip.aosipUtils;
+import com.android.internal.util.aosnp.aosnpUtils;
 import com.android.systemui.R;
 
 public class TunerFragment extends PreferenceFragment {
@@ -49,7 +52,7 @@ public class TunerFragment extends PreferenceFragment {
         final ContentResolver resolver = getActivity().getContentResolver();
 
         mShowLteFourGee = (SwitchPreference) findPreference(SHOW_LTE_FOURGEE);
-        if (aosipUtils.isWifiOnly(getActivity())) {
+        if (aosnpUtils.isWifiOnly(getActivity())) {
             prefSet.removePreference(mShowLteFourGee);
         } else {
         mShowLteFourGee.setChecked((Settings.System.getInt(resolver,
@@ -66,13 +69,12 @@ public class TunerFragment extends PreferenceFragment {
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.tuner_prefs);
-
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        getActivity().setTitle(R.string.systemui_tuner_statusbar_title);
+        getActivity().setTitle(R.string.statusbar_icons_blacklist);
 
         MetricsLogger.visibility(getContext(), MetricsEvent.TUNER, true);
     }
@@ -82,6 +84,21 @@ public class TunerFragment extends PreferenceFragment {
         super.onPause();
 
         MetricsLogger.visibility(getContext(), MetricsEvent.TUNER, false);
+    }
+
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                getActivity().finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

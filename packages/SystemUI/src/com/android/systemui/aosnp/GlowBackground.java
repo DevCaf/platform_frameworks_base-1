@@ -1,4 +1,4 @@
-package com.android.systemui.aosip;
+package com.android.systemui.aosnp;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
