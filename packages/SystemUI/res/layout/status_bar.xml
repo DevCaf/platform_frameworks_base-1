@@ -97,7 +97,7 @@
                 android:gravity="right|center_vertical"
                 android:paddingEnd="2dp" />
 
-          <com.android.systemui.aosip.statusbarweather.StatusBarWeather
+          <com.android.systemui.aosnp.statusbarweather.StatusBarWeather
                 android:id="@+id/weather_temp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -107,7 +107,7 @@
                 android:paddingStart="2dp"
                 android:paddingEnd="2dp" />
 
-            <com.android.systemui.aosip.statusbarweather.StatusBarWeatherImage
+            <com.android.systemui.aosnp.statusbarweather.StatusBarWeatherImage
                 android:id="@+id/weather_image"
                 android:layout_width="24dp"
                 android:layout_height="match_parent"

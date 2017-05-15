@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.aosip;
+package com.android.internal.util.aosnp;
 
 /* Master list of all actions for the power menu */
 public class PowerMenuConstants {

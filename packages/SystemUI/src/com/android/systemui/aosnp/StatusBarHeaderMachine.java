@@ -16,7 +16,7 @@
  *
  */
 
-package com.android.systemui.aosip;
+package com.android.systemui.aosnp;
 
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;

@@ -1,4 +1,4 @@
-package com.android.systemui.aosip.apppicker;
+package com.android.systemui.aosnp.apppicker;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -31,7 +31,7 @@ public class AppPickerTile extends QSTile<QSTile.BooleanState> {
     private boolean mListening;
 
     private static final Intent APP_PICKER = new Intent().setComponent(new ComponentName(
-            "com.android.systemui", "com.android.systemui.aosip.apppicker.AppPickerActivity"));
+            "com.android.systemui", "com.android.systemui.aosnp.apppicker.AppPickerActivity"));
 
     public AppPickerTile(Host host) {
         super(host);

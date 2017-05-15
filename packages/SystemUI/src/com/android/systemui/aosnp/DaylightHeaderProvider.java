@@ -16,7 +16,7 @@
  *
  */
 
-package com.android.systemui.aosip;
+package com.android.systemui.aosnp;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -50,7 +50,7 @@ import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
 import com.android.systemui.R;
-import com.android.internal.util.aosip.aosipUtils;
+import com.android.internal.util.aosnp.aosnpUtils;
 
 public class DaylightHeaderProvider implements
         StatusBarHeaderMachine.IStatusBarHeaderProvider {
@@ -369,7 +369,7 @@ public class DaylightHeaderProvider implements
             return null;
         }
 
-        if (!aosipUtils.isAvailableApp(mPackageName, mContext)) {
+        if (!aosnpUtils.isAvailableApp(mPackageName, mContext)) {
             loadDefaultHeaderPackage();
         }
         if (mRes == null || mHeadersList == null || mHeadersList.size() == 0) {

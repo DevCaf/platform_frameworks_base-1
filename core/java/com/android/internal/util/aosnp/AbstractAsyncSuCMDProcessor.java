@@ -1,4 +1,4 @@
-package com.android.internal.util.aosip;
+package com.android.internal.util.aosnp;
 
 import android.os.AsyncTask;
 

@@ -570,13 +570,13 @@
 
         <!-- App picker activity -->
         <activity
-            android:name=".aosip.apppicker.AppPickerActivity"
+            android:name=".aosnp.apppicker.AppPickerActivity"
             android:theme="@style/AppPicker"
             android:label="@string/quick_settings_app_picker"
             android:icon="@drawable/ic_qs_app_picker"
             android:enabled="true" >
             <intent-filter>
-                <action android:name=".aosip.apppicker.AppPickerActivity" />
+                <action android:name=".aosnp.apppicker.AppPickerActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

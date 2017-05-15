@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.aosip;
+package com.android.internal.util.aosnp;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -27,7 +27,7 @@ import android.net.ConnectivityManager;
 import java.util.Locale;
 import android.content.res.Resources;
 
-public class aosipUtils {
+public class aosnpUtils {
 
     public static boolean deviceSupportsFlashLight(Context context) {
         CameraManager cameraManager = (CameraManager) context.getSystemService(

@@ -68,7 +68,7 @@ import java.io.IOException;
 
 import java.lang.reflect.Method;
 
-import com.android.internal.util.aosip.Helpers;
+import com.android.internal.util.aosnp.Helpers;
 
 public final class ShutdownThread extends Thread {
     // constants

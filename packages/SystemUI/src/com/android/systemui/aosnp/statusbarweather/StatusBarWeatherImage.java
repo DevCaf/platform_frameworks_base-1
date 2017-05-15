@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.systemui.aosip.statusbarweather;
+package com.android.systemui.aosnp.statusbarweather;
 
 import android.content.ContentResolver;
 import android.content.Context;

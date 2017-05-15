@@ -56,7 +56,7 @@ import com.android.internal.logging.MetricsLogger;
 import com.android.internal.widget.LockPatternUtils;
 import com.android.keyguard.KeyguardStatusView;
 import com.android.keyguard.KeyguardUpdateMonitor;
-import com.android.systemui.aosip.UserContentObserver;
+import com.android.systemui.aosnp.UserContentObserver;
 import com.android.systemui.AutoReinflateContainer;
 import com.android.systemui.AutoReinflateContainer.InflateListener;
 import com.android.keyguard.KeyguardUpdateMonitor;

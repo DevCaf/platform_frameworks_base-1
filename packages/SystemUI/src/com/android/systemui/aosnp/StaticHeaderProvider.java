@@ -16,7 +16,7 @@
  *
  */
 
-package com.android.systemui.aosip;
+package com.android.systemui.aosnp;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -49,7 +49,7 @@ import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
 import com.android.systemui.R;
-import com.android.internal.util.aosip.aosipUtils;
+import com.android.internal.util.aosnp.aosnpUtils;
 
 public class StaticHeaderProvider implements
         StatusBarHeaderMachine.IStatusBarHeaderProvider {
@@ -113,7 +113,7 @@ public class StaticHeaderProvider implements
         if (mRes == null) {
             return null;
         }
-        if (!aosipUtils.isAvailableApp(mPackageName, mContext)) {
+        if (!aosnpUtils.isAvailableApp(mPackageName, mContext)) {
             return null;
         }
         try {

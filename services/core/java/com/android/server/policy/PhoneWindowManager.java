@@ -153,7 +153,7 @@ import com.android.internal.policy.PhoneWindow;
 import com.android.internal.policy.IKeyguardService;
 import com.android.internal.policy.IShortcutService;
 import com.android.internal.statusbar.IStatusBarService;
-import com.android.internal.util.aosip.aosipUtils;
+import com.android.internal.util.aosnp.aosnpUtils;
 import com.android.internal.utils.du.DUActionUtils;
 import com.android.internal.util.ScreenShapeHelper;
 import com.android.internal.utils.du.ActionHandler;
